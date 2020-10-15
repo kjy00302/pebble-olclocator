@@ -1,1 +1,1 @@
-#Open Location Code (Plus Code) Locator for Pebble smartwatch
+# Open Location Code (Plus Code) Locator for Pebble smartwatch
