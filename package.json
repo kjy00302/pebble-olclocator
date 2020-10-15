@@ -1,0 +1,69 @@
+{
+  "name": "pebble-olclocater",
+  "author": "kjy00302",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "location"
+  ],
+  "private": true,
+  "dependencies": {
+    "open-location-code": "git://github.com/google/open-location-code.git"
+  },
+  "pebble": {
+    "displayName": "Plus Code",
+    "uuid": "76f61b61-cf44-49c2-a10d-1a8c45bc90ca",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Request",
+      "PlusCode",
+      "RGeoResult",
+      "Accuracy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "ICON_REFRESH",
+          "file": "icons/refresh.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_AUTO_REFRESH",
+          "file": "icons/auto_refresh.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_MANUAL_REFRESH",
+          "file": "icons/manual_refresh.png"
+        },
+        {
+          "menuIcon": true,
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "menu_icon.png"
+        },
+        {
+          "type": "raw",
+          "name": "LOCALE_ENGLISH",
+          "file": "locale_english.bin"
+        },
+        {
+          "type": "raw",
+          "name": "LOCALE_KOREAN",
+          "file": "locale_korean.bin"
+        }
+      ]
+    }
+  }
+}
